@@ -1,14 +1,16 @@
-# cpnt260-a2
+## GH [link](https://kevin-234.github.io/cpnt260-a2/)
+### My repo in github:https://github.com/Kevin-234/cpnt260-a2
+-----
 
-1. cpnt260
-2. Team Card Assignment
+# CPNT260-a2
 
-   -Author name; Kevin Taguchi
-3. Attributions;
+### CPNT-260 Assignment 2: Team Card
+### Author name: Kevin Taguchi
+### Attributions;
 - CSS-trick
 - MDN Web Docs
 - W3school
-4. Problem and possible solutions / Not from my own code.
+## Problem and possible solutions / Not from my own code.
 
  I had hard time to put profile picture above background image and give white border line around the image.
  

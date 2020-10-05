@@ -8,9 +8,11 @@
 - MDN Web Docs
 - W3school
 4. Problem and possible solutions / Not from my own code.
+
  I had hard time to put profile picture above background image and give white border line around the image.
  
- Solution: Select profile image give position relative and use margin to place image to right spot.
+ ### Solution: 
+ Select profile image give position relative and use margin to place image to right spot.
 
  e.g.
   + position: relative;
@@ -27,6 +29,7 @@
   First, add position relative in class container.
   Next, position absolute, height, width in class banner-image; Where you selected the background-image class.
   
+  <!-- These code is not my own -->
  e.g.
  - container {
    position: relative;
@@ -37,3 +40,4 @@
    height: 9.5rem;
    width: 100%;
 }
+

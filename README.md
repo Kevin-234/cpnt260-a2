@@ -3,12 +3,12 @@
 1. cpnt260
 2. Team Card Assignment
 3. Attributions;
--css-trick
+-CSS-trick
 -MDN Web Docs
- 
+-W3school
 4. Problem and possible solutions
  I had hard time to put profile picture above background image and give white border line around the image.
- solutuion: Select profile image give position relative and use margin to place image to right spot.
+ Solution: Select profile image give position relative and use margin to place image to right spot.
  e.g.
   -position: relative;
   -margin-top: 5rem;
@@ -29,7 +29,7 @@
    position: relative;
  }
  
-  .banner-img {
+  .banner-image {
     position: absolute;
     height: 9.5rem;
     width: 100%;

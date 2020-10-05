@@ -4,7 +4,7 @@
   padding: 0;
 }
 /* set up */
-body{
+body {
   display: grid;
   grid-template-rows: minmax(20ch, 260px) 400px;
   
@@ -37,7 +37,7 @@ body{
 }
 
 /* background-image prettier */
-.banner-img {
+.banner-image {
 /* make place for background image   */
   position: absolute;
   height: 9.5rem;

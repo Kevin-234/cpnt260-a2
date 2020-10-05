@@ -2,12 +2,14 @@
 
 1. cpnt260
 2. Team Card Assignment
+   Author name; Kevin Taguchi
 3. Attributions;
 -CSS-trick
 -MDN Web Docs
 -W3school
-4. Problem and possible solutions
+4. Problem and possible solutions / Not from my own code.
  I had hard time to put profile picture above background image and give white border line around the image.
+ 
  Solution: Select profile image give position relative and use margin to place image to right spot.
  e.g.
   -position: relative;
@@ -25,12 +27,12 @@
   Next, position absolute, height, width in class banner-image; Where you selected the background-image class.
   
  e.g.
- container {
+ -container {
    position: relative;
- }
+}
  
-  .banner-image {
-    position: absolute;
-    height: 9.5rem;
-    width: 100%;
- }
+-.banner-image {
+   position: absolute;
+   height: 9.5rem;
+   width: 100%;
+}

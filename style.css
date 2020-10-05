@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* set up */
+body{
+  display: grid;
+  grid-template-rows: minmax(20ch, 260px) 400px;
+  
+  /* set card to center   */
+  height: 100vh;
+  justify-content: center;
+}
+
+/* wrapper to make basis */
+.wrapper-grid {
+  display: grid;
+  grid-template-columns: minmax(20ch, 40ch);
+  grid-template-rows: 200px 280px;
+  grid-gap: 1rem;
+  margin: 2rem;
+}
+
+/* card container */
+.container {
+  display: grid;
+  grid-template-columns: minmax(20ch, 40ch);
+  grid-row: 1 / 3;
+  box-shadow: 0px 3px 7px 1px #969696;
+  background-color: #f3f4f4;
+  text-align: center;
+  position: relative;
+  
+/* adjusted to centerize a card   */
+  top: 30%;
+}
+
+/* background-image prettier */
+.banner-img {
+/* make place for background image   */
+  position: absolute;
+  height: 9.5rem;
+  width: 100%;
+  
+/* add background image and make it prettier   */
+  background-image: url(https://raw.githubusercontent.com/sait-wbdv/assessments/master/cpnt260/assignment-2/images/river.jpg);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+ 
+}
+
+.profile-image {
+/* image size   */
+  width: 150px;
+  height: 150px;
+  
+  /* set profile image above background image  */
+  position: relative;
+  /* position profile image right spot   */
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  /* circle */
+  border-radius: 100px;
+  border: 8px solid #f3f4f4;
+}
+
+/* h1 */
+.name {
+  font-family: 'EB Garamond', serif;
+  font-size:1.7rem;
+ 
+}
+/* p */
+.description {
+/* make prettier   */
+  margin: 0.5rem 1rem;
+  line-height: auto;
+  
+  font-size:0.9rem;
+  font-weight: 450;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* footer icons */
+.icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  
+  font-size: 35px;
+  
+  border-top: 1px solid #969696;
+}
+
+.fab {
+  color: #022d8e;
+  margin: 10px; 
+}
